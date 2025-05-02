@@ -1,0 +1,83 @@
+.front-notice {
+    padding: 5px 20px;
+    color: #666;
+    font-size: 12px
+}
+.front-header {
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #eee;
+    background: #0fa8a4;
+}
+.front-header-left {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.front-header-left img, .front-header-dropdown img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+.front-header-left .title {
+    flex: 1;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.front-header-center {
+    flex: 1;
+    overflow: hidden !important;
+}
+.front-header-right {
+    width: 200px;
+    padding-right: 20px;
+    text-align: right;
+}
+.front-header-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.el-dropdown-menu {
+    width: 100px !important;
+    text-align: center !important;
+}
+
+.main-content {
+    width: 100%;
+    margin: 1px auto;
+}
+/* ElementUI */
+.el-menu.el-menu--horizontal {
+    border: none !important;
+    height: 59px;
+}
+
+.el-menu{
+    background: #0fa8a4;
+}
+
+.el-menu-item {
+    height: 59px;
+    line-height: 59px;
+    background-color: #0c7f83 !important;
+    font-size: 16px;
+    color: white !important;
+}
+
+.el-menu-item.is-active {
+    background-color: #19dac3 !important;
+    font-weight: 550;
+}
+
+.overflowShow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
